@@ -1,0 +1,17 @@
+
+project_id = "wjlmmgpymfhdybrxncmr"
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.ask-notes]
+verify_jwt = false
+
+[functions.create-membership-checkout]
+verify_jwt = false
+
+[functions.subscribe-newsletter]
+verify_jwt = false
+
+[functions.send-newsletter]
+verify_jwt = true
